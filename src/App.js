@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Logo from "./components/Logo/Logo";
 import ImageLinkForm from "./components/ImageLinkForm/ImageLinkForm";
 import FaceRecognition from "./components/FaceRecognition/FaceRecognition";
+import Footer from "./components/Footer/Footer";
 import "./App.css";
 import Particles from "react-particles-js";
 import Clarifai from "clarifai";
@@ -85,6 +86,7 @@ class App extends Component {
           box={this.state.box}
           faceCountPrompt={this.state.faceCountPrompt}
         />
+        <Footer />
       </div>
     );
   }

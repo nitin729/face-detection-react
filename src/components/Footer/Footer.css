@@ -1,0 +1,95 @@
+.br2 {
+  border-radius: 0.25rem;
+}
+.footer {
+  position: fixed;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.dib {
+  display: inline-block;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.h2 {
+  height: 2rem;
+}
+
+.w2 {
+  width: 2rem;
+}
+
+.near-white {
+  color: #f4f4f4;
+}
+
+.bg-near-black {
+  background-color: #111;
+}
+
+.hover-bg-gray:hover {
+  background-color: #777;
+}
+
+.hover-bg-gray:focus {
+  background-color: #777;
+}
+
+.pa2 {
+  padding: 0.5rem;
+}
+
+.pr2 {
+  padding-right: 0.5rem;
+}
+
+.pv4 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.ph2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.ma2 {
+  margin: 0.5rem;
+}
+
+.ml3 {
+  margin-left: 1rem;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.tc {
+  text-align: center;
+}
+
+.f6 {
+  font-size: 0.875rem;
+}
+
+.bg-animate,
+.bg-animate:hover,
+.bg-animate:focus {
+  transition: background-color 0.15s ease-in-out;
+}
+
+@media screen and (min-width: 60em) {
+  .tc-l {
+    text-align: center;
+  }
+}
