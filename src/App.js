@@ -9,7 +9,7 @@ import Clarifai from "clarifai";
 import particlesOptions from "./particles";
 
 const app = new Clarifai.App({
-  apiKey: "c55472eba2ae43929396ae257aa5881b",
+  apiKey: "",
 });
 
 class App extends Component {
