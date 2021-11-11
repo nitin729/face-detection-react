@@ -10,7 +10,7 @@ import particlesOptions from "./particles";
 
 const app = new Clarifai.App({
   //Put your own api key
-  apiKey: "c55472eba2ae43929396ae257aa5881b",
+  apiKey: "",
 });
 
 class App extends Component {
